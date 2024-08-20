@@ -16,13 +16,13 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="margin-top: -1in;">
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}" style="margin-top: -.9in;">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           <style>
             .profile img {
-              width: 150px; /* Set a specific width */
-              height: 150px; /* Set the height to match the width */
+              width: 250px; /* Set a specific width */
+              height: 250px; /* Set the height to match the width */
               object-fit: cover; /* Ensures the image covers the box without stretching */
               border-radius: 50%; /* Ensures the image is a perfect circle */
             }
