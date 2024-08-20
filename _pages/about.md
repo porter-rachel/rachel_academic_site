@@ -20,6 +20,3 @@ My research centers on American political institutions, specifically legislative
 
 I received my PhD in 2022 from The University of North Carolina at Chapel Hill. My dissertation, *Some Politics Are Still Local: Strategic Position Taking in Congress & Elections*, was awarded APSA's <a href='https://politicalsciencenow.com/rachel-porter-receives-the-2023-e-e-schattschneider-award/'>E.E. Schattschneider Award</a> for the best dissertation on American government. My research is published or forthcoming in outlets such as the *American Journal of Political Science*, *The Journal of Politics*, and *Legislative Studies Quarterly*. 
 
-My Google Scholar profile can be accessed <a href='https://scholar.google.com/citations?user=CuQqTt4AAAAJ&hl=en'>here</a>.
-
-
