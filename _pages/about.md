@@ -6,7 +6,7 @@ subtitle: <a href='#'>Assistant Professor & Computational Social Science Fellow<
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
 
 news: false # includes a list of news items
