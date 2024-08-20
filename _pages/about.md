@@ -18,8 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! I am an Assistant Professor in the Department of Political Science at Texas A&M University. Previously, I was a Postdoctoral Scholar in the Data Science Institute at The University of Chicago, where I was also affiliated with the Department of Political Science.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research is driven by substantive questions in public opinion and political psychology: How and why do citizens change their attitudes on political issues? How do these attitude changes drive mass polarization? How is polarization causally related to other features of government and society? As a computational social scientist, I answer these questions by using and developing rigorous methods in natural language processing, Bayesian statistics, and causal inference, with a particular focus on high-quality measurement.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my PhD in 2023 from The University of North Carolina at Chapel Hill, where I was awarded the Dean's Distinguished Dissertation Award for the best dissertation in the social sciences. I also hold an MA from UNC-Chapel Hill and a BA from the University of Wisconsin-Madison. My work has been funded by the National Science Foundation and American Political Science Association, among others, and published in venues such as the American Political Science Review and American Journal of Political Science.
