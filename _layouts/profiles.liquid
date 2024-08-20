@@ -9,26 +9,18 @@ layout: page
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
             {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            <style>
-              .profile img {
-                width: 150px; /* Set a specific width */
-                height: 150px; /* Set the height to match the width */
-                object-fit: cover; /* Ensures the image covers the box without stretching */
-                border-radius: 50%; /* Ensures the image is a perfect circle */
-              }
-            </style>
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            {% include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = profile.image %}
           {% endif %}
           {% if profile.more_info %}
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
         </div>
-      {% endfor %}
-    {% endif %}
-  </article>
-</div>
 
         <div class="clearfix">
           {% if profile.content %}
