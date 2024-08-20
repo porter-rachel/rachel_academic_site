@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Assistant Professor & Computational Social Science Fellow</a> University of Notre Dame
+subtitle: <a href='#'>Assistant Professor & Computational Social Science Fellow</a> 
 
 profile:
   align: right
